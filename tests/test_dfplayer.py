@@ -1,5 +1,5 @@
 import unittest
-from DFPlayer import DFPlayer
+from src.DFPlayer import DFPlayer
 from time import sleep
 
 

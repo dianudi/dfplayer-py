@@ -1,8 +1,10 @@
 # DFPlayer
 
-Python3 library for the DFPlayer Mini MP3 Module, works with USB to TTL also Raspberry PI.
+Python3 library for the DFPlayer Mini MP3 Module, works with USB to TTL.
 
-# Installation
+![Main interface](/assets/wiring_diagram.webp?raw=true)
+
+## Installation
 
 ```bash
 pip install DFPlayer
@@ -34,7 +36,7 @@ df.reset() # reset the module
 
 ## Test
 
-Make sure the module has an SD card installed and has a minimum of three songs inside. Connect with USB to TTL, or on a Raspberry Pi, connect to GPIO.
+Make sure the module has an SD card installed and has a minimum of three songs inside. Connect with USB to TTL.
 
 ```bash
 pip install -r requirements.txt
